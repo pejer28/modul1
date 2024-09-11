@@ -3,11 +3,7 @@ import pandas as pd
 import pickle
 import os
 
-#load model
-model_directory = r'C:\Users\pejer\OneDrive\Desktop\UAJY HUB\BISMILLAH S5 UAJY\00 - MATA KULIAH\Pembelejaran Mesin dan Pembelajaran Mendalam - B\praktek\tugas modul 1' ##diisi dengan path folder dimana file model berada
-
-# Gunakan os.path.join() untuk menggabungkan direktori dan file model pickle 
-model_path = os.path.join(model_directory, 'rf_diabetes_model.pkl')  
+model_path = 'rf_diabetes_model.pkl'  
 
 # Periksa apakah file ada di direktori yang ditentukan 
 
